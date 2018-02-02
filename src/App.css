@@ -1,0 +1,90 @@
+.calc-main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  font-size: 35px;
+}
+
+.calc-box {
+  padding: 39px 5px;
+  background-color: gray;
+  border-radius: 20px;
+}
+
+.calc-display {
+  border: .5px solid black;
+  height: 98px;
+  background-color: rgb(46, 46, 46);
+  color: white;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  /* font-size: 50px; */
+  padding-right: 10px;
+}
+
+.calc-display-1 {
+ 
+}
+
+.calc-display-2 {
+  font-size: 50px;
+}
+
+.calc-signs {
+  background-color: rgb(226, 130, 4);
+  color: white;
+}
+
+.calc-square {
+  width: 71px;
+  height: 60px;
+  display: flex;
+  border: .5px solid black;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.calc-bottom-square {
+  display: flex;
+}
+
+.square-1 {
+  width: 143px;
+}
+
+.square-2 {
+  width: 71px;
+}
+
+.calc-square:hover {
+  background-color: rgba(128, 128, 128, 0.288);
+}
+
+.calc-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 216px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background-color: white;
+}
+
+.calc-keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  /* width: 310px; */
+}

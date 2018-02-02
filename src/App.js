@@ -90,7 +90,7 @@ class App extends Component {
       })
     } else if (this.state.sign === '/') {
       let add = (this.state.currentValue * 1) / (this.state.newNumber * 1)
-      console.log(add)
+      // console.log(add)
       this.setState({
         sign: value,
         currentValue: add,
